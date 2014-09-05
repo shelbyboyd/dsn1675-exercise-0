@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+body {
+    background-color: #A89A8A;
+    border-top: 30px solid #102B07;
+    border-bottom: 30px solid #102B07;
+}
