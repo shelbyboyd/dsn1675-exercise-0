@@ -14,6 +14,22 @@ html {
 
 body {
     background-color: #A89A8A;
-    border-top: 30px solid #102B07;
-    border-bottom: 30px solid #102B07;
 }
+
+h1 {
+    font-family: sans-serif;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    color: #8F006B;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: #8F006B;
+}
+
+img {
+    
+    
