@@ -12,10 +12,6 @@ html {
     line-height: 1.5rem;
 }
 
-body {
-    background-color: #A89A8A;
-}
-
 h1 {
     font-family: sans-serif;
     font-size: 3.5rem;
@@ -30,6 +26,23 @@ h2 {
     color: #8F006B;
 }
 
-img {
-    
-    
+dl {
+    border: 1px solid red;
+    /*overflow hidden can be used as a clearfix ot wo;; remind the <dl> to wrap around all its floated children */
+    overflow: hidden;
+}
+
+dt {
+    float: left;
+    /* clear tells the elment to go to below the otheer floated things
+    */
+    clear: left;
+    width: 8rem;
+}
+
+dd {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
